@@ -1,42 +1,14 @@
-# pico8-vscode
+# pico8-vsix
 
-A new vscode extension for editing and running pico8 files.
+Up-to-date extension for editing and running pico8 files.
 
-![Example of running a pico8 workspace](https://cloud.githubusercontent.com/assets/4092/21540200/d5ac50e8-ce01-11e6-8aad-6c0b78751053.gif)
-
-I recommend having a separate pico8 workspace for doing dev in. I keep mine at `~/Projects/pico8` and
-it looks a bit like this
-
-```
-pico8
-├── backup
-├── bbs
-├── carts
-│   └── hello.p8
-├── cdata
-├── config.txt
-├── cstore
-├── log.txt
-└── sdl_controllers.txt
-```
-
-This then allows me to open the workspace from the command line like
-
-```sh
-joho6[19:22:03]:~/Projects/pico8
-👻  code .
-```
-
-The benefit of this is that any edits and saves you make within pico8 (for example doing graphics or sound)
-will be written back into the workspace where you would expect it, rather than into the default home
-which is likely to be far, far away from the warm embrace of source control
+*Syntax highlighting updated to match **version 0.2.2**.*
 
 ## Features
 
 * Syntax highlighting for *.p8 files
 * If used in workspace mode will set the pico8 home to your workspace
 * CMD+R to open automatically run the .p8 you're editing in pico8
-* A humane licence (no twitter egg anti-sjw MIT variant here)
 
 ## Requirements
 
@@ -50,13 +22,23 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-Best I can say is that it "works on my machine"
+ * Missing `#include` highlighting
+ * Missing v2.0 operators highlighting
+ * Missing P8SCII highlighting
+
+ If you can help with any of the above issues, feel free to make a pull request.
 
 ## Release Notes
 
+### 0.2.2
+
+ * Initial fork from pico8-vscode
+ * Changed versioning scheme to match PICO8 version
+ * Updated P8 API highlighting
+
 ### 0.0.1
 
-Initial release of pico8-vscode
+ * Initial release of pico8-vscode
 
 ## License
 
