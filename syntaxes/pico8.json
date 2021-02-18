@@ -165,7 +165,7 @@
                     "name": "variable.language.self.lua"
                 },
                 {
-                    "match": "(?<![^.]\\.|:)\\b(_draw|_init|_update|_update60|abs|add|all|assert|atan2|band|bnot|bor|btn|btnp|bxor|camera|cartdata|cd|circ|circfill|clip|cls|cocreate|color|coresume|cos|costatus|count|cstore|cursor|del|dget|dir|dset|exit|export|fget|flip|flr|folder|foreach|fset|help|holdframe|import|info|install_demos|install_games|keyconfig|line|load|ls|map|mapdraw|max|memcpy|memset|menuitem|mget|mid|min|mkdir|mset|music|pairs|pal|palt|peek|pget|poke|print|printh|pset|reboot|rect|rectfill|reload|resume|rnd|run|save|setmetatable|sfx|sget|sgn|shl|shr|shutdown|sin|splore|spr|sqrt|srand|sset|sspr|stat|sub|time|type|yield)\\b(?=\\s*(?:[({\"']|\\[\\[))",
+                    "match": "(?<![^.]\\.|:)\\b(_draw|_init|_update|_update60|abs|add|all|assert|atan2|band|bnot|bor|btn|btnp|bxor|camera|cartdata|cd|circ|circfill|clip|cls|cocreate|color|coresume|cos|costatus|count|cstore|cursor|del|dget|dir|dset|exit|export|fget|flip|flr|folder|foreach|fset|help|holdframe|import|info|install_demos|install_games|keyconfig|line|load|ls|map|mapdraw|max|memcpy|memset|menuitem|mget|mid|min|mkdir|mset|music|pairs|pal|palt|peek|pget|poke|print|printh|pset|reboot|rect|rectfill|reload|resume|rnd|run|save|setmetatable|sfx|sget|sgn|shl|shr|shutdown|sin|splore|spr|sqrt|srand|sset|sspr|stat|sub|time|type|yield|tostr|tonum|extcmd|lshr|ceil|rotl|rotr|peek4|poke4|serial|peek2|poke2|rawset|rawget|rawlen|rawequal|next|config|ord|chr|tline|fillp|ipairs|backup|stop|pack|unpack|oval|ovalfill|split|deli|reset)\\b(?=\\s*(?:[({\"']|\\[\\[))",
                     "name": "support.function.lua"
                 },
                 {
